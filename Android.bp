@@ -5,14 +5,3 @@
 soong_namespace {
 }
 
-android_app_import {
-	name: "com.qualcomm.qti.improvetouch.service",
-	owner: "xiaomi",
-	apk: "proprietary/vendor/app/com.qualcomm.qti.improvetouch.service/com.qualcomm.qti.improvetouch.service.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
